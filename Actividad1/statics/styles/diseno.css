@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "FuenteTexto";
+    src: url("../fonts/Letters for Learners.ttf");
+}
+@font-face {
+    font-family: "FuenteTexto";
+    src: url("../fonts/Letters for Learners.ttf");
+}
+@font-face {
+    font-family: "FuenteTitulos";
+    src: url("../fonts/Moonbright Demo.ttf");
+}
+
+/* ----------------- BODY -----------------*/
+
+h1{
+    font-family: "FuenteTitulos";
+    font-size: 1.5cm;
+    font-weight: lighter;
+    color: #000000;
+    position: absolute;
+    left: 35%;
+}
+img{
+    position:absolute;
+    right: 800px;
+    top: 120px;
+}
+
+
+#div_encabezado{
+    overflow: auto;
+    border: 10px dotted white;
+    margin: 15px;
+    text-align:justify;
+    width: 500px;
+    height: 280px;
+    background-color: rgba(182,157,237);
+}
+p{
+    margin: 15px 15px 15px 15px;
+}
+
+#encabezado2{
+    overflow: auto;
+    border: 10px dotted white;
+    margin: 15px;
+    text-align:justify;
+    width: 400px;
+    height: 260px;
+    background-color: rgba(182,157,237);
+    position: absolute;
+    top: 1px;
+    left: 1000px;
+}
+
+#encabezado3{
+    overflow: auto;
+    border: 10px dotted white;
+    margin: 15px;
+    text-align:justify;
+    width: 350px;
+    height: 250px;
+    background-color: rgba(182,157,237);
+    position: absolute;
+    top: 315px;
+    left: 280px;
+}
+
+#encabezado4{
+    overflow: auto;
+    border: 10px dotted white;
+    margin: 15px;
+    text-align:justify;
+    width: 400px;
+    height: 430px;
+    background-color: rgba(182,157,237);
+    position: absolute;
+    top: 315px;
+    right: 10px;
+}
+
+#encabezado5{
+    overflow: auto;
+    border: 10px dotted white;
+    margin: 15px;
+    text-align:center;
+    width: 400px;
+    height: 350px;
+    background-color: rgba(182,157,237);
+    position: absolute;
+    top: 315px;
+    left: 665px;
+}
+
+#encabezado6{
+    background-color: rgba(182,157,237);
+    border: 10px dotted white;
+    text-align:justify;
+    overflow: auto;
+    height: 250px;
+    margin: 15px;
+    width: 240px;
+}
+
+#encabezado7{
+    overflow: auto;
+    border: 10px dotted white;
+    margin: 15px;
+    text-align:justify;
+    width: 500px;
+    height: 320px;
+    background-color: rgba(182,157,237);
+}
+
+#encabezado8{
+    overflow: auto;
+    border: 10px dotted white;
+    margin: 15px;
+    text-align:justify;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(182,157,237);
+    position: absolute;
+    top: 700px;
+    left: 550px;
+}
+
+
+body{
+    background-color: rgba(182,157,237);
+}
+
+h1{
+    font-family: "FuenteTitulos";
+    font-size: 1.5cm;
+    font-weight: lighter;
+    color: #000000;
+    position: absolute;
+    left: 35%;
+}
+img{
+    position:absolute;
+    right: 800px;
+    top: 120px;
+}
+
+h2{
+    color: #000000;
+    font-family: "FuenteTitulos";
+    font-size: 1cm;
+}
+
+h3{
+    color: #000000;;
+    font-family: "FuenteTitulos";
+    font-size: 1cm;
+}
+
+p{
+    font-family: "FuenteTexto";
+    font-size: 0.6cm;
+}
+
+ul{
+    font-family: "FuenteTexto";
+    list-style-image: url("../images/corazon.jpg");
+}
+
+ol{
+    list-style-image: url("../images/corazon.jpg"); 
+}
+
+li.fuenteTextoA{
+    font-family: "FuenteTexto";
+    font-weight: bolder;
+    font-size: 0.6cm;
+}
+
+li.fuenteTextoL{
+    font-family: "FuenteTexto";
+    font-size: 0.6cm;
+}
+
+a:link{
+    color: rgba(255,255,255);
+}
